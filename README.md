@@ -1,4 +1,4 @@
-# <h1>Testowanie autouzupełniania formularzy (WCAG 1.3.5)</h1>
+# <h1>Testowanie autouzupełniania formularzy (WCAG 1.3.5)</h1>8
 
 Międzynarodowe wytyczne WCAG dają zestaw wymagań dla stron internetowych. Ich spełnienie pozwala **osobom z niepełnosprawnościami** korzystać ze stron internetowych. 
 
@@ -12,7 +12,7 @@ Międzynarodowe wytyczne WCAG dają zestaw wymagań dla stron internetowych. Ich
 ### Ważne informacje
 <p>Technikę stosuje się wyłącznie do danych dotyczących osoby, która wypełnia formularz (<a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H98">Technika H98 WCAG</a>). Dane są zapisywane dopiero po kliknięciu na przycisk np. wyślij lub zapisz. </p>
 
-<p>Pole formularza w kodzie strony musi mieć informację, z której grupy danych chce uzupełniać pola formularza (<a href="https://www.w3.org/TR/WCAG21/#input-purposes">wartość autocomplete musi być konkretna i zgodna z HTML 5.2</a>). Błędna wartość "autocomplete" to błąd!</p>
+<p>Pole formularza w kodzie strony musi mieć informację, z której grupy danych chce uzupełniać pola formularza (wartość autocomplete musi być konkretna i zgodna z <a href="https://www.w3.org/TR/WCAG21/#input-purposes">HTML 5.2</a>). Błędna wartość "autocomplete" to błąd!</p>
 <p>Unikaj używania: </p>
 <ul><li>
  <code>autocomplete="on"</code>. To nie jest pomocne, bo przeglądarka "zgaduje" jak wypełnić pole.</li>
@@ -62,8 +62,8 @@ Serce tej techniki to <code>autocomplete="name"</code>. Jest określony zbiór w
 ###  Przydatne linki (w języku angielskim)
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Szczegóły kryterium sukcesu 1.3.5 WCAG</a>,</li>
-<li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H98">Szerzej opisana technika "autocomplete"</a>,</li>
-<li><a href="https://www.w3.org/TR/WCAG21/#input-purposes">Wartości jakie są dopuszczalne w atrybucie "autocomplete"</a>.</li>
+<li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H98">Technika H98 WCAG</a> (przykładowy kod),</li>
+<li>Słów kilka o<a href="https://www.w3.org/TR/WCAG21/#input-purposes">HTML 5.2</a> czyli wartości jakie są dopuszczalne w atrybucie "autocomplete".</li>
 
 </ul>
 
@@ -84,7 +84,7 @@ Unikanie używania atrybutu "autocomplete" nie chroni użytkownika przed zapisyw
 <p>Są trzy rodzaje autouzupełniania danych:</p>
 <ul>
 <li>menadżer hasła może wprowadzać hasło i login,</li>
-<li>autouzupełnianie w oparciu o <a href="https://www.w3.org/TR/WCAG21/#input-purposes"> poprawne wartości atrybytu "autocomplete" czyli technika WCAG</a>,</li>
+<li>autouzupełnianie w oparciu o <a href="https://www.w3.org/TR/WCAG21/#input-purposes">HTML 5.2</a> czyli poprawne wartości atrybytu "autocomplete",</li>
 <li>autouzupełnianie na podstawie algorytmów przeglądarki <code>autocomplete="on"</code>.</li>
 </ul>
 
@@ -111,7 +111,7 @@ Unikanie używania atrybutu "autocomplete" nie chroni użytkownika przed zapisyw
 </ol>
 
 ### Testowy formularz
-<a href="./site/form.html">Możesz potestować narzędzie na stronie z przykładowymi polami formularza.</a>
+<a href="./site/form.html">Możesz potestować narzędzie na stronie z przykładowymi polami formularza.</a>. Zapisz formularz na swoim komputerz i otwórz go w przeglądarce internetowej. Użyj narzędzia do testowania.
 
 ### Informacje o narzędziu
 <ol>
@@ -142,9 +142,9 @@ Unikanie używania atrybutu "autocomplete" nie chroni użytkownika przed zapisyw
 
 <ul>
 <li>Wymóg autouzupełniania dotyczy tylko danych użytkownika, który wypełnia formularz.</li>
-<li>Wyłączone autouzupełnianie lub zostawione przeglądarce to błąd. Musisz korzystać z <a href="https://www.w3.org/TR/WCAG21/#input-purposes">autouzupełniania z prawidłowymi wartościami</a>. </li>
+<li>Wyłączone autouzupełnianie lub zostawione przeglądarce to błąd. Musisz korzystać z <a href="https://www.w3.org/TR/WCAG21/#input-purposes">HTML 5.2</a> czyli autouzupełniania z prawidłowymi wartościami</a>. </li>
 <li>Przeczytaj sekcje "dodatkowe informacje". Pola formularza bez autouzupełniania to zazwyczaj błąd. </li>
-<li>Pola, które powinny mieć autouzupełnianie są <a href="https://www.w3.org/TR/WCAG21/#input-purposes">opisane w linku dot. HTML 5.2</a>. Możesz też sprawdzić <a href="./site/form.html">testowy formularz</a>. Zawiera on wszystkie rodzaje wymaganych pól z autouzupełnianiem.</li>
+<li>Pola, które powinny mieć autouzupełnianie są opisane w linku dot. <a href="https://www.w3.org/TR/WCAG21/#input-purposes">HTML 5.2</a>. Możesz też sprawdzić <a href="./site/form.html">testowy formularz</a>. Zawiera on wszystkie rodzaje wymaganych pól z autouzupełnianiem. Zapisz sobie na komputerze i otwórz w przeglądarce, a następnie użyj narzędzia.</li>
 <li>Literówka lub błędna wartość to błąd np. literówka w słowie "name" <code> autocomplete="given-naem"></code> lub autouzupełnianie dla kraju ustawione na pocztę.
 
 
