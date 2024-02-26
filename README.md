@@ -63,7 +63,7 @@ Serce tej techniki to <code>autocomplete="name"</code>. Jest określony zbiór w
 <ul>
 <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">Szczegóły kryterium sukcesu 1.3.5 WCAG</a>,</li>
 <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H98">Technika H98 WCAG</a> (przykładowy kod),</li>
-<li>Słów kilka o<a href="https://www.w3.org/TR/WCAG21/#input-purposes">HTML 5.2</a> czyli wartości jakie są dopuszczalne w atrybucie "autocomplete".</li>
+<li>Słów kilka o <a href="https://www.w3.org/TR/WCAG21/#input-purposes">HTML 5.2</a> czyli wartości jakie są dopuszczalne w atrybucie "autocomplete".</li>
 
 </ul>
 
