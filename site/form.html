@@ -1,0 +1,225 @@
+<html>
+
+<head>
+    <title>Strona testowa z formularzami</title>
+</head>
+
+<body>
+    <h1>Formularz do testowania autouzupełniania.</h1>
+
+    <form>
+        <p class="info">Wypełnij i wciśnij przycisk "Wyślij", aby zapamiętać wpisane wartości.</p>
+
+        <div>
+            <label for="auto">Podaj nazwę auta</label>
+            <input type="text" id="auto">
+
+            <label for="history">Podaj nazwę auta</label>
+            <textarea id="history">Dawno, dawno, dawno temu...</textarea>
+
+            <label for="cars">Wybierz auto:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+            <label for="name">Podaj imię:</label>
+            <input id="name" type="text" autocomplete="on">
+
+            <label for="name">Podaj imię:</label>
+            <input id="name" type="text" autocomplete="off">
+        </div>
+
+
+        <label for="name">Jak się nazywasz? (imię, drugie imię, nazwisko, tytuł itd.)</label>
+        <input id="name" type="text" autocomplete="name">
+
+        <label for="honorific-prefix">Tytuł (np. Pan, Pani, Dr, Prof.)</label>
+        <input id="honorific-prefix" type="text" autocomplete="honorific-prefix">
+
+        <label for="given-name">Imię</label>
+        <input id="given-name" type="text" autocomplete="given-name">
+
+        <label for="additional-name">Drugie imię</label>
+        <input id="additional-name" type="text" autocomplete="additional-name">
+
+        <label for="family-name">Nazwisko</label>
+        <input id="family-name" type="text" autocomplete="family-name">
+
+        <label for="honorific-suffix">Suffix (amerykańskie i zachodnioeuropejskie dodatki na końcu, które nadają nowe
+            znaczenie np. junior, senior, II. Może też tytuł naukowy lub honorowy).
+        </label>
+        <input id="honorific-suffix" type="text" autocomplete="honorific-suffix">
+
+        <label for="nickname">Pseudonim</label>
+        <input id="nickname" type="text" autocomplete="nickname">
+
+        <label for="organization-title">Stanowisko</label>
+        <input id="organization-title" type="text" autocomplete="organization-title">
+
+        <label for="username">Użytkownik</label>
+        <input id="username" type="text" autocomplete="username">
+
+        <label for="new-password">Nowe hasło</label>
+        <input id="new-password" type="password" autocomplete="new-password">
+
+        <label for="current-password">Obecne hasło</label>
+        <input id="current-password" type="password" autocomplete="current-password">
+
+        <label for="organization">Organizacja/Nazwa firmy</label>
+        <input id="organization" type="text" autocomplete="organization">
+
+        <label for="street-address">Adres - ulica</label>
+        <input id="street-address" type="text" autocomplete="street-address">
+
+        <label for="address-line1">Ulica - linia 1</label>
+        <input id="address-line1" type="text" autocomplete="address-line1">
+
+        <label for="address-line2">Ulica - linia 2</label>
+        <input id="address-line2" type="text" autocomplete="address-line2">
+
+        <label for="address-line3">Ulica - linia 3</label>
+        <input id="address-line3" type="text" autocomplete="address-line3">
+
+        <label for="address-level4">Adres miasto (czwarty poziom podziału kraju)</label>
+        <input id="address-level4" type="text" autocomplete="address-level4">
+
+        <label for="address-level3">Adres gmina (trzeci poziom podziału kraju)</label>
+        <input id="address-level3" type="text" autocomplete="address-level3">
+
+        <label for="address-level2">Adres powiat (drugi poziom podziału kraju)</label>
+        <input id="address-level2" type="text" autocomplete="address-level2">
+
+        <label for="address-level1">Adres województwo (lub stan, kanton - najwyższy poziom podziału kraju)</label>
+        <input id="address-level1" type="text" autocomplete="address-level1">
+
+        <label for="country">Kod kraju (np. PL lub DE. Składa się z dwóch liter, zgodny z ISO 3166-1 alfa-2)</label>
+        <input id="country" type="text" autocomplete="country">
+
+        <label for="country-name">Kraj</label>
+        <input id="country-name" type="text" autocomplete="country-name">
+
+        <label for="postal-code">Poczta</label>
+        <input id="postal-code" type="text" autocomplete="postal-code">
+
+        <label for="cc-name">Imię i nazwisko na dokumencie płatniczym</label>
+        <input id="cc-name" type="text" autocomplete="cc-name">
+
+        <label for="cc-given-name">Imię na dokumencie płatniczym</label>
+        <input id="cc-given-name" type="text" autocomplete="cc-given-name">
+
+        <label for="cc-additional-name">Drugie imię na dokumencie płatniczym</label>
+        <input id="cc-additional-name" type="text" autocomplete="cc-additional-name">
+
+        <label for="cc-family-name">Nazwisko na dokumencie płatniczym</label>
+        <input id="cc-family-name" type="text" autocomplete="cc-family-name">
+
+        <label for="cc-number">Numer karty płatniczej</label>
+        <input id="cc-number" type="text" autocomplete="cc-number">
+
+        <label for="cc-exp">Data ważności karty płatniczej</label>
+        <input id="cc-exp" type="month" autocomplete="cc-exp">
+
+        <label for="cc-exp-month">Miesiąc ważności karty płatniczej</label>
+        <input id="cc-exp-month" type="number" autocomplete="cc-exp-month">
+
+        <label for="cc-exp-year">Rok ważności karty płatniczej</label>
+        <input id="cc-exp-year" type="number" autocomplete="cc-exp-year">
+
+        <label for="cc-csc">Kod bezpieczeństwa karty płatniczej (np. CVC)</label>
+        <input id="cc-csc" type="text" autocomplete="cc-csc">
+
+        <label for="cc-type">Rodzaj karty płatniczej (np. Visa albo Master Card)</label>
+        <input id="cc-type" type="text" autocomplete="cc-type">
+
+        <label for="transaction-currency">Waluta transakcji (trzyliterowy kod np. PLN, USD, GBP, zgodny z ISO
+            4217)</label>
+        <input id="transaction-currency" type="text" autocomplete="transaction-currency">
+
+        <label for="transaction-amount">Kwota transakcji (liczba zmiennoprzecinkowa)</label>
+        <input id="transaction-amount" type="number" autocomplete="transaction-amount">
+
+        <label for="language">Preferowany język (kod języka, zgodny z BCP 47)</label>
+        <input id="language" type="text" autocomplete="language">
+
+        <label for="bday">Data urodzin</label>
+        <input id="bday" type="date" autocomplete="bday">
+
+        <label for="bday-day">Dzień urodzin</label>
+        <input id="bday-day" type="number" autocomplete="bday-day">
+
+        <label for="bday-month">Miesiąc urodzin</label>
+        <input id="bday-month" type="number" autocomplete="bday-month">
+
+        <label for="bday-year">Rok urodzin</label>
+        <input id="bday-year" type="number" autocomplete="bday-year">
+
+        <label for="sex">Płeć</label>
+        <input id="sex" type="text" autocomplete="sex">
+
+        <label for="url">Adres strony internetowej</label>
+        <input id="url" type="url" autocomplete="url">
+
+        <label for="photo">Zdjęcie (adres url)</label>
+        <input id="photo" type="url" autocomplete="photo">
+
+        <label for="tel">Telefon (z numerem kierunkowym kraju np. +48)</label>
+        <input id="tel" type="tel" autocomplete="tel">
+
+        <label for="tel-country-code">Numer kierunkowy kraju np. +48</label>
+        <input id="tel-country-code" type="text" autocomplete="tel-country-code">
+
+        <label for="tel-national">Telefon (bez kierunkowego do regionu np. 22)</label>
+        <input id="tel-national" type="text" autocomplete="tel-national">
+
+        <label for="tel-area-code">Kierunkowy do regionu np. 22</label>
+        <input id="tel-area-code" type="text" autocomplete="tel-area-code">
+
+        <label for="tel-local">Telefon (bez kierunkowego kraju i regionu)</label>
+        <input id="tel-local" type="text" autocomplete="tel-local">
+
+        <label for="tel-local-prefix">Pierwsza część telefonu (podział telefonu na dwa, bez kierunkowych)</label>
+        <input id="tel-local-prefix" type="text" autocomplete="tel-local-prefix">
+
+        <label for="tel-local-suffix">Druga część telefonu (podział telefonu na dwa, bez kierunkowych)</label>
+        <input id="tel-local-suffix" type="text" autocomplete="tel-local-suffix">
+
+        <label for="tel-extension">Telefon wewnętrzny</label>
+        <input id="tel-extension" type="text" autocomplete="tel-extension">
+
+        <label for="email">E-mail</label>
+        <input id="email" type="email" autocomplete="email">
+
+        <label for="impp">Adres url punktu końcowego protokołu wiadomości (np.: aim:goim?screenname=przyklad)</label>
+        <input id="impp" type="url" autocomplete="impp">
+
+        <button type="submit">Wyślij</button>
+    </form>
+    <style>
+        .info {
+            border: 2px solid black;
+            background: yellow;
+            padding: 5px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+        }
+
+        input {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form {
+            border: 2px dashed black;
+            padding: 5px;
+            width: 50%;
+        }
+    </style>
+</body>
+
+</html>
