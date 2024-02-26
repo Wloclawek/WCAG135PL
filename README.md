@@ -134,7 +134,7 @@ Unikanie używania atrybutu "autocomplete" nie chroni użytkownika przed zapisyw
 <li>Przejście do kolejnego kroku w formularzu wymaga odświeżenia strony. Także ponowne sprawdzenie kodu wymaga odświeżenia strony i kliknięcie w zakładkę.</li>
 </ol>
 
-<p><img src="./images/test.gif" alt="Kliknięcię w linku na pasku zakładek uruchamia narzędzie. Pojawiają się dodatkowe informacje dot. pól formularzy."></p>
+<p><img src="./images/test.gif" alt="Strona logowania na Wikipedii. Klikniecię w skryptozakładkę na pasku zakładek uruchamia narzędzie. Pojawiają się dodatkowe informacje dot. pól formularzy i ich autouzupełniania."></p>
 
 #### Jak testować?
 
@@ -154,7 +154,7 @@ Unikanie używania atrybutu "autocomplete" nie chroni użytkownika przed zapisyw
 ```
 </li>
 <li>Informacje o autouzupełnianiu składa się z kilku części. Ikony, która podpowiada do jakiej grupy należy pole (kluczyk symbolizujące hasło). Informacji o tym jaką grupą danych będzie zasilane autouzupełnianie (Nowe hasło). Na końcu jest informacja o etykiecie pola formularza (Hasło). Etykieta pobierana jest z <code>label</code> lub <code>aria-label</code>.<br>
-<img src="./images/haslo.png"></li>
+<img src="./images/haslo.png" alt="Pole formularza dot. hasła. Wyświetla się dodatkowa informacja z kluczem i o autouzupełnianiu."></li>
 </ul>
 
 ### Kontakt
