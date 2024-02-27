@@ -106,7 +106,7 @@ Unikanie używania atrybutu "autocomplete" nie chroni użytkownika przed zapisyw
 </ol>
 
 ### Testowy formularz
-<a href="./site/form.html">Możesz potestować narzędzie na stronie z przykładowymi polami formularza.</a>. Zapisz formularz na swoim komputerz i otwórz go w przeglądarce internetowej. Użyj narzędzia do testowania.
+<a href="./site/form.html">Możesz potestować narzędzie na stronie z przykładowymi polami formularza</a>. Zapisz formularz na swoim komputerz i otwórz go w przeglądarce internetowej. Użyj narzędzia do testowania.
 
 ### Informacje o narzędziu
 <ol>
@@ -155,4 +155,5 @@ Unikanie używania atrybutu "autocomplete" nie chroni użytkownika przed zapisyw
 ### Kontakt
 Proszę napisz do mnie e-mail: zglos.blad.programowanie@gmail.com.
 
-
+### Licencja
+Możesz używać dowolnie narzędzia. <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.pl">Jest ono przeniesione do domeny publicznej (CC0)</a>.
