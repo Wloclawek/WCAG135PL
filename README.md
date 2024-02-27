@@ -1,4 +1,4 @@
-# <h1>Testowanie autouzupełniania formularzy (WCAG 1.3.5)</h1>8
+# <h1>Testowanie autouzupełniania formularzy (WCAG 1.3.5)</h1>
 
 Międzynarodowe wytyczne WCAG dają zestaw wymagań dla stron internetowych. Ich spełnienie pozwala **osobom z niepełnosprawnościami** korzystać ze stron internetowych. 
 
